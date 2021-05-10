@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_9" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Fim-gr-GFG">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
@@ -9,46 +9,46 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Item-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FirstKadaiApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="はじめてのアプリ1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ouA-kw-FTC">
-                                <rect key="frame" x="215.66666666666666" y="453" width="43.999999999999972" height="6"/>
+                                <rect key="frame" x="235" y="495" width="44" height="6"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="5"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="はじめてのアプリ2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nwa-D5-9QT">
-                                <rect key="frame" x="143.66666666666666" y="200" width="88" height="12"/>
+                                <rect key="frame" x="162.66666666666666" y="44" width="89" height="12"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
                                 <color key="textColor" systemColor="systemPinkColor"/>
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="はじめてのアプリ3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sp-31-akj">
-                                <rect key="frame" x="121.66666666666669" y="297" width="132" height="18"/>
+                                <rect key="frame" x="140.66666666666666" y="339" width="132.99999999999997" height="18"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <color key="textColor" systemColor="systemTealColor"/>
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="はじめてのアプリ4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zIh-fQ-Ft4">
-                                <rect key="frame" x="99.666666666666686" y="594" width="176" height="24"/>
+                                <rect key="frame" x="118.66666666666669" y="739" width="177" height="24"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" systemColor="systemOrangeColor"/>
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="はじめてのアプリ5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ge-FF-t9w">
-                                <rect key="frame" x="78" y="491" width="219" height="30"/>
+                                <rect key="frame" x="97.666666666666686" y="533" width="219" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" systemColor="systemGreenColor"/>
                                 <color key="highlightedColor" name="AccentColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="top" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="はじめてのアプリ6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYe-x6-gus">
-                                <rect key="frame" x="56" y="388" width="263" height="36"/>
+                                <rect key="frame" x="75.666666666666686" y="430" width="263" height="36"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <color key="textColor" systemColor="systemIndigoColor"/>
                                 <color key="highlightedColor" name="AccentColor"/>
@@ -62,19 +62,37 @@
                             <constraint firstItem="ouA-kw-FTC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="50" id="95z-QF-IOh"/>
                             <constraint firstItem="7ge-FF-t9w" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="100" id="O42-tn-Hth"/>
                             <constraint firstItem="nwa-D5-9QT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PcW-Zf-6NK"/>
-                            <constraint firstItem="nwa-D5-9QT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-200" id="REU-Ja-Dak"/>
+                            <constraint firstItem="nwa-D5-9QT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="50" id="REU-Ja-Dak"/>
                             <constraint firstItem="ouA-kw-FTC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50" id="Uvc-h0-agR"/>
-                            <constraint firstItem="zIh-fQ-Ft4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="200" id="cir-j2-Xv1"/>
-                            <constraint firstItem="zIh-fQ-Ft4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dje-sU-GPR"/>
+                            <constraint firstItem="V4Y-CM-rA6" firstAttribute="bottom" secondItem="zIh-fQ-Ft4" secondAttribute="bottom" constant="50" id="WLv-L4-7e0"/>
                             <constraint firstItem="PYe-x6-gus" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="edR-mD-mDc"/>
                             <constraint firstItem="PYe-x6-gus" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="kNO-r6-3Ui"/>
                             <constraint firstItem="7sp-31-akj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="poR-fC-BEF"/>
+                            <constraint firstItem="zIh-fQ-Ft4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vcU-Ar-aw1"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Np4-4d-qwn"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="18.840579710144929" y="77.678571428571431"/>
+            <point key="canvasLocation" x="784.375" y="77.34375"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="NY3-bL-Atm">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Fim-gr-GFG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yoO-7r-Tbf">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="dYX-0Q-K8i"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fbB-aD-Fql" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.75" y="77.34375"/>
         </scene>
     </scenes>
     <resources>
